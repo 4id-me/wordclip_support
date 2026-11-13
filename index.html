@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordClip - Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 { color: #333; font-size: 1.8em; margin-bottom: 10px; }
+        h2 { color: #333; margin: 30px 0 15px; font-size: 1.3em; }
+        p { color: #555; margin-bottom: 15px; }
+        ul { margin-left: 20px; color: #555; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .subtitle { color: #666; font-size: 1.1em; margin-bottom: 30px; }
+        .faq-q { font-weight: 600; color: #333; margin-top: 20px; }
+        .contact { background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 30px; }
+        .contact a { color: #0f3460; text-decoration: none; }
+        .contact a:hover { text-decoration: underline; }
+        footer { text-align: center; margin-top: 30px; padding-top: 20px; border-top: 2px solid #f0f0f0; color: #999; font-size: 0.9em; }
+        footer a { color: #999; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WordClip</h1>
+        <p class="subtitle">Make short vertical videos that explain a word from a song.</p>
+        <h2>About</h2>
+        <p>WordClip puts a fragment of a music video on top and your camera below. You record yourself once: introduce the word, sing the line along with the clip, then explain what the word means. The app builds a vertical video ready for Reels, Shorts and TikTok.</p>
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Split vertical video</strong> &mdash; the clip above, you below, divided at the golden section; 1080&times;1920 mp4</li>
+            <li><strong>Pick the fragment</strong> &mdash; only the part of the clip you choose is played</li>
+            <li><strong>Teleprompter under the camera</strong> &mdash; one gliding row at the top of the screen, so you look into the lens; it starts the clip by itself at a <code>[clip]</code> line</li>
+            <li><strong>Sing-along words</strong> &mdash; lines between two <code>[clip]</code> lines are shown while the clip plays</li>
+            <li><strong>Subtitles</strong> &mdash; made from the teleprompter script, timed as you read</li>
+            <li><strong>Mix after recording</strong> &mdash; your voice and the clip volume, trimming, clip length, caption and a fading thumbnail title can all be changed without recording again</li>
+            <li><strong>Trim to voice</strong> &mdash; silence before and after your speech is cut automatically</li>
+            <li><strong>English and Russian</strong> interface</li>
+        </ul>
+        <h2>How to Use</h2>
+        <ul>
+            <li>Record tab: Open file&hellip; and choose a video with the song; set the start and end of the fragment</li>
+            <li>Paste your script into Teleprompter; put a line <code>[clip]</code> where the clip should play</li>
+            <li>Put on headphones, press Record (&#8984;R), read the script, sing along with the clip, explain the word, press Stop</li>
+            <li>Mix tab: adjust volumes, trims, caption and title, then Export video</li>
+            <li>The video is saved to Movies/WordClip</li>
+        </ul>
+        <h2>FAQ</h2>
+        <p class="faq-q">Why headphones?</p>
+        <p>The clip is added to the video from the file itself. Without headphones the microphone would record it a second time from the speakers.</p>
+        <p class="faq-q">Can I use any music video?</p>
+        <p>WordClip works with video files you already have on your Mac. You are responsible for having the right to use the music and video in what you publish.</p>
+        <p class="faq-q">Where are my recordings?</p>
+        <p>In Movies/WordClip: raw takes in <code>takes</code>, finished videos next to them. Nothing leaves your Mac.</p>
+        <div class="contact">
+            <h2>Contact & Support</h2>
+            <p>If you have any questions, issues, or feature requests, please open an issue on GitHub:</p>
+            <p><a href="https://github.com/4id-me/wordclip_support/issues">Report an issue</a></p>
+        </div>
+        <footer>
+            <p>&copy; 2026 4id &middot; <a href="privacy.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
